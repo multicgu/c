@@ -13,7 +13,6 @@ int main(void)
 	printf("Pls enter %d lines, and I will sort them.\n",LVM);
 	printf("Enter enter to stop at a line's start.\n");
 	while((i<LVM) && (gets(input[i])!=NULL) && (input[i][0]!='\0'))
-	//for(i=0;i<LVM && gets(input[i])!=NULL && input[i][0]!='\0';i++)
 		{
 			ptstr[i] = input[i];
 			i++;
