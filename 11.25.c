@@ -15,8 +15,11 @@ int main(void)
 	while((i<LVM) && (gets(input[i])!=NULL) && (input[i][0]!='\0'))
 		{
 			ptstr[i] = input[i];
+			printf("input[%d]add %p,intput[%d][0] add %p\n",i,&input[i],i,&input[i][0]);
+			printf("ptstr[%d]add %p,ptstr[%d][0] add %p\n",i,&ptstr[i],i,&ptstr[i][0]);
 			i++;
 		}
+	printf("input add %p, ptstr add %p\n",&input,&ptstr);
 	stsrt(ptstr,i);
 	puts("\n Here's the sorted list: \n");
 	for(k=0;k<i;k++)
