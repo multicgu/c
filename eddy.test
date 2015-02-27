@@ -1,0 +1,53 @@
+So even Eddy came oven ready.
+ˆ‚õ0//count.c
+ˆ‚õ0#include<stdio.h>
+ˆ‚õ0#include<stdlib.h>
+ˆ‚õ0int main(int argc,char * argv[])
+ˆ‚õ0{
+ˆ‚õ0	int count=0;
+ˆ‚õ0	int ch;
+ˆ‚õ0	FILE * fp;
+ˆ‚õ0	if(argc!=2)
+ˆ‚õ0	{
+ˆ‚õ0		printf("Usage: %s filenames\n",argv[0]);
+ˆ‚õ0		exit(1);
+ˆ‚õ0	}
+ˆ‚õ0	if((fp=fopen(argv[1],"r"))==NULL)
+ˆ‚õ0	{
+ˆ‚õ0		printf("The file %s cannot be open.\n",argv[1]);
+ˆ‚õ0		exit(1);
+ˆ‚õ0	}
+ˆ‚õ0	while((ch=getc(fp))!=EOF)
+ˆ‚õ0	{
+ˆ‚õ0		putc(ch,stdout);
+ˆ‚õ0		count++;
+ˆ‚õ0	}
+ˆ‚õ0	if(fclose(fp)==EOF)
+ˆ‚õ0		printf("The file %d cannot be close normal.\n",argv[1]);
+ˆ‚õ0	printf("The file %s have %d characters.\n",argv[1],count);
+ˆ‚õ0
+ˆ‚õ0	return 0;
+ˆ‚õ0}
+ˆ‚õ0EDDY LAST!!!!!!!!!!!!!!!!!!
+ˆ‚õ0EDDY LAST!!!!!!!!!!!!!!!!!!
+Send money/ot
+EDDY LAST!!!!!!!!!!!!!!!!!!
+nu<d.
+EDDY LAST!!!!!!!!!!!!!!!!!!
+nu<db>nmnnach av)
+EDDY LAST!!!!!!!!!!!!!!!!!!
+ncn0	th	L*p	(g=
+EDDY LAST!!!!!!!!!!!!!!!!!!
+
+EDDY LAST!!!!!!!!!!!!!!!!!!
+pn(se%fem\,g0;	i1
+EDDY LAST!!!!!!!!!!!!!!!!!!
+
+EDDY LAST!!!!!!!!!!!!!!!!!!
+fffeav]r)NL		rt"ei  ntep."r[)	x(;}wl(=tf)E){	tcso)	ot;}ifo()E)	ifT l%cn  o rlnav]
+EDDY LAST!!!!!!!!!!!!!!!!!!
+rt"ei  v%crtsnav]ot
+EDDY LAST!!!!!!!!!!!!!!!!!!
+ru 
+EDDY LAST!!!!!!!!!!!!!!!!!!
+.RED LAST!!!!!!!!!!!!!!

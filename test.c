@@ -1,10 +1,13 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
 int main(void)
 {
-	for(int a=0;a<10;a++)
-	{
-		printf("a=%d\n",a);
-	}	
-
+	int n;
+	char a[2];
+	char *d=a;
+	char *b="abc";
+	n=strcmp(d,b);
+	printf("%d\n",n);
 	return 0;
 }

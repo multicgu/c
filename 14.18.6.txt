@@ -1,0 +1,5 @@
+4 Jessie Joybat 5 2 1 1
+1 multic gu	10 9 1 1
+2 btk gu 10 8 2 3
+17 DG gu 22 8 3 2
+3 rader wang 13 5 4 5

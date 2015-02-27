@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<stdlib.h>
+typedef struct {
+	int o;
+	float O;
+}ora;
+typedef struct t{
+	ora e;
+	struct t * next;
+}T;
+typedef T* pt;
+void change(pt*);
+int main(void)
+{
+	T* h=NULL;
+	h=(T*) malloc(sizeof(T));
+	//h->e.o=4;
+	//change(h);
+	h->e.o=4;
+	h->e.O=23.1;
+	T* w=h->next;
+	w->e.o=1233;
+	w->e.O=86.54;
+	printf("%d\n",h->e.o);
+	printf("%f\n",h->e.O);
+	printf("%d\n",w->e.o);
+	printf("%f\n",w->e.O);
+	change(h);
+	printf("%d\n",h->e.o);
+	printf("%f\n",h->e.O);
+	return 0;
+}
+void change(pt* it)
+{
+	//it->e.o=3;
+	//it=(T*) malloc(sizeof(T));
+	*it=NULL;
+}
