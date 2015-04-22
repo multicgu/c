@@ -1,4 +1,5 @@
 //f(x)=1+ ... +(1/(i-1)*x^(i-1))+(1/i)*x^i; f(1.1)
+//gcc -o xxx xxx.c -lm
 #include<stdio.h>
 #include<math.h>
 #include<time.h>

@@ -1,8 +1,13 @@
 #include<stdio.h>
+#include<stdlib.h>
+typedef struct a{
+	
+};
 int main(void)
 {
-	int a,b,c;
-	scanf("%d%d%d",&a,&b,&c);
-	printf("%d %d %d\n",a,b,c);
+	item a[4];
+	//a=(item) malloc(sizeof(int));
+	*a=4;
+	printf("a=%d\n",*a);
 	return 0;
 }

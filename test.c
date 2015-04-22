@@ -1,13 +1,12 @@
 #include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+#define max(a,b) {return (a)>(b)?(a):(b);}
 int main(void)
 {
-	int n;
-	char a[2];
-	char *d=a;
-	char *b="abc";
-	n=strcmp(d,b);
-	printf("%d\n",n);
+	//int a,b;
+	//scanf("%d%d",&a,&b);
+	int a=max(2,3);
+	//printf("%d\n",max(2,3));
+	printf("%d\n",a);
+
 	return 0;
 }
